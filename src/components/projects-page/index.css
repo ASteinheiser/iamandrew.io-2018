@@ -2,6 +2,7 @@
   margin: 30px auto;
   width: fit-content;
   background: #1F1F1F;
+  box-shadow: 0 2px 4px 0 rgba(30,30,30,0.50);
 }
 
 .projects-page-header {
