@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
     return (
       <div className='footer-container'>
         <div className='max-width'>
-          {'Andrew Steinheiser - 2018'}
+          {'andrew steinheiser 2018'}
         </div>
       </div>
     )

@@ -12,6 +12,7 @@
 
   font-size: 30px;
   color: #5EA110;
+  letter-spacing: 2px;
   text-shadow: 2px 0 3px #5EA110;
 }
 
@@ -19,5 +20,8 @@
   color: #8CC4FF;
   text-align: center;
   font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  text-transform: lowercase;
   padding: 0 50px 40px 50px;
 }
