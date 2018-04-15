@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 
 import './index.css';
 
+const MAX_DISTANCE = 35; // default: 50
+const BG_SPEED = -30; // default: 0
+const DOT_SPEED = -10; // default: 0
+const STAR_COUNT = 100; // default: 80
+const DOT_DISTANCE = 2; // default: 2
+
 export default class InteractiveStars extends Component {
   componentDidMount() {
     function Star(id, x, y) {
@@ -103,13 +109,13 @@ export default class InteractiveStars extends Component {
       mouseX,
       mouseY,
       stars = [],
-      initStarsPopulation = 80,
+      initStarsPopulation = STAR_COUNT,
       dots = [],
-      dotsMinDist = 2,
+      dotsMinDist = DOT_DISTANCE,
       params = {
-        maxDistFromCursor: 50,
-        dotsSpeed: 0,
-        backgroundSpeed: 0
+        maxDistFromCursor: MAX_DISTANCE,
+        dotsSpeed: DOT_SPEED,
+        backgroundSpeed: BG_SPEED
       };
 
     setCanvasSize();
