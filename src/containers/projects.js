@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import Navigation from '../components/navigation';
+
 export default class Projects extends Component {
   render() {
     return (
-      <div id='projects'>
+      <Navigation history={this.props.history}>
         {'Projects'}
-      </div>
+      </Navigation>
     );
   }
 }

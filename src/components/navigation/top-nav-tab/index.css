@@ -1,0 +1,24 @@
+.top-nav-item {
+  cursor: pointer;
+  color: #F0FFFF;
+  font-size: 28px;
+  font-family: 'Quicksand', sans-serif;
+
+  float: right;
+  padding: 10px 5px;
+  margin-right: 30px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.top-nav-item:hover {
+  border-bottom: 2px solid #F0FFFF;
+  padding-bottom: 7px;
+  transition: all .25s;
+}
+
+.active {
+  transition: all .25s;
+  border-bottom: 2px solid #F0FFFF;
+  padding-bottom: 7px;
+}
