@@ -6,15 +6,15 @@ export default class HomeCard extends Component {
   render() {
     return (
       <div className='home-card-container'>
-        <span>
+        <div className='home-card-title'>
           iamandrew
-        </span>
-        <span>
+        </div>
+        <div className='home-card-link margin-bottom'>
           > projects
-        </span>
-        <span>
+        </div>
+        <div className='home-card-link'>
           > about
-        </span>
+        </div>
       </div>
     )
   }

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import './index.css';
 
-const MAX_DISTANCE = 35; // default: 50
-const BG_SPEED = -30; // default: 0
+const MAX_DISTANCE = 50; // default: 50
+const BG_SPEED = 0; // default: 0
 const DOT_SPEED = -10; // default: 0
 const STAR_COUNT = 100; // default: 80
 const DOT_DISTANCE = 2; // default: 2
@@ -140,16 +140,16 @@ export default class InteractiveStars extends Component {
     }
 
     function animate() {
-        ctx.clearRect(0, 0, WIDTH, HEIGHT);
+      ctx.clearRect(0, 0, WIDTH, HEIGHT);
 
-        for (var i in stars) {
-          stars[i].move();
-        }
-        for (var j in dots) {
-          dots[j].move();
-        }
-        drawIfMouseMoving();
-        requestAnimationFrame(animate);
+      for (var i in stars) {
+        stars[i].move();
+      }
+      for (var j in dots) {
+        dots[j].move();
+      }
+      drawIfMouseMoving();
+      requestAnimationFrame(animate);
     }
 
     window.onmousemove = function(e){

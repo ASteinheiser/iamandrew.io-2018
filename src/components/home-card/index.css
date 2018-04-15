@@ -1,11 +1,39 @@
 .home-card-container {
   position: absolute;
-  margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 300px;
-  height: 200px;
-  background-color: #ccc;
+
+  margin: auto;
+  padding: 20px;
+
+  width: fit-content;
+  height: fit-content;
+
+  cursor: default;
+  background: #1F1F1F;
+  box-shadow: 0 0 10px 3px rgba(255,255,255,0.50), inset 0 1px 3px 0 rgba(31,31,31,0.50);
+}
+
+.home-card-title {
+  font-size: 36px;
+  padding: 0px 10px 20px 0;
+  color: #5EA110;
+  text-shadow: 2px 0 3px #5EA110;
+}
+
+.home-card-link {
+  font-size: 28px;
+  color: #5EA110;
+  width: fit-content;
+  text-shadow: 2px 0 3px #5EA110;
+}
+
+.home-card-link:hover {
+  text-decoration: underline;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
 }

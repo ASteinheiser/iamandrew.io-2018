@@ -6,7 +6,7 @@ import InteractiveStars from '../components/interactive-stars';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div id='home'>
         <HomeCard />
         <InteractiveStars />
       </div>
