@@ -196,10 +196,7 @@ export default class InteractiveStars extends Component {
 
   render() {
     return (
-      <div>
-        <div className='filter'/>
-        <canvas id='canvas' ref='canvas'/>
-      </div>
+      <canvas id='canvas' ref='canvas'/>
     )
   }
 }
