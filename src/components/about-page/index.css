@@ -1,5 +1,6 @@
 .about-page-container {
-  margin: 30px auto;
+  cursor: default;
+  margin: 10px auto;
   max-width: 600px;
   background: #1F1F1F;
   box-shadow: 0 2px 4px 0 rgba(30,30,30,0.50);
@@ -16,7 +17,7 @@
   text-shadow: 2px 0 3px #5EA110;
 }
 
-.about-page-body {
+.about-page-bio {
   color: #8CC4FF;
   text-align: center;
   font-size: 22px;
@@ -24,4 +25,25 @@
   letter-spacing: 1px;
   text-transform: lowercase;
   padding: 0 50px 40px 50px;
+}
+
+.about-page-contact-info {
+  color: #8CC4FF;
+  font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.about-page-social-media {
+  color: #8CC4FF;
+  font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.about-page-info-container {
+  display: flex;
+  justify-content: space-evenly;
 }

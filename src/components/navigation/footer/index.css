@@ -1,5 +1,6 @@
 .footer-container {
   color: #8CC4FF;
+  cursor: default;
   padding: 10px 20px 10px 0;
   text-align: right;
   background: #1F1F1F;
