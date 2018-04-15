@@ -7,10 +7,9 @@ export default class Navigation extends Component {
   render() {
     return (
       <div className='mac-background'>
+        <TopNav history={this.props.history}/>
 
-        <TopNav history={this.props.history} currentPage={window.location.pathname}/>
-
-        <div className='navigation-content'>
+        <div className='navigation-content max-width'>
           {this.props.children}
         </div>
       </div>

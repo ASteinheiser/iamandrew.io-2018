@@ -1,25 +1,23 @@
 import React from 'react';
 
-import TopNavTab from '../top-nav-tab';
 import './index.css';
 
 export default class TopNav extends React.Component {
   render() {
     return (
       <div className='top-nav-bar'>
-        <div className='max-width'>
-          <TopNavTab
-            text="about"
-            linkTo="/about"
-            history={this.props.history}
-            active={this.props.currentPage === '/about'}
-          />
-          <TopNavTab
-            text="projects"
-            linkTo="/projects"
-            history={this.props.history}
-            active={this.props.currentPage === '/projects'}
-          />
+        <div className='space-between max-width'>
+          <div>
+            {'iamandrew'}
+          </div>
+          <div className='top-nav-links-container'>
+            <div onClick={() => this.props.history.push('/about')} className='top-nav-item'>
+              {'about'}
+            </div>
+            <div onClick={() => this.props.history.push('/projects')} className='top-nav-item'>
+              {'projects'}
+            </div>
+          </div>
         </div>
       </div>
     )
