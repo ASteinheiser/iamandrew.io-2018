@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './index.css';
+
 export default class Router extends Component {
   render() {
     return (
