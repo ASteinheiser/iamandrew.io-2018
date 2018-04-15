@@ -1,6 +1,11 @@
-.projects-page-container {
+.projects-page-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-page-box-container {
   cursor: default;
-  margin: 10px auto;
+  margin: 0 auto 30px auto;
   width: fit-content;
   background: #1F1F1F;
   box-shadow: 0 2px 4px 0 rgba(30,30,30,0.50);
@@ -25,4 +30,11 @@
   letter-spacing: 2px;
   text-transform: lowercase;
   padding: 0 70px 40px 70px;
+}
+
+.project-blog-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
