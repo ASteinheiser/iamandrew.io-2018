@@ -7,7 +7,7 @@ export default class Home extends Component {
   render() {
     return (
       <div id='home'>
-        <HomeCard />
+        <HomeCard history={this.props.history}/>
         <InteractiveStars />
       </div>
     );

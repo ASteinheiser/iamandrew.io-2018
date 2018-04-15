@@ -7,13 +7,15 @@ export default class HomeCard extends Component {
     return (
       <div className='home-card-container'>
         <div className='home-card-title'>
-          iamandrew
+          {'iamandrew'}
         </div>
-        <div className='home-card-link margin-bottom'>
-          > projects
+        <div className='home-card-link margin-bottom'
+          onClick={() => this.props.history.push('/projects')}>
+          {'> projects'}
         </div>
-        <div className='home-card-link'>
-          > about
+        <div className='home-card-link'
+          onClick={() => this.props.history.push('/about')}>
+          {'> about'}
         </div>
       </div>
     )

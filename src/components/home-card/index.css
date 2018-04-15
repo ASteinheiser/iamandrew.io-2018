@@ -27,6 +27,7 @@
   font-size: 28px;
   color: #5EA110;
   width: fit-content;
+  cursor: pointer;
   text-shadow: 2px 0 3px #5EA110;
 }
 
