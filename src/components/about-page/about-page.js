@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import LinkText  from '../link-text';
+import ResumePDF from '../../assets/Resume_2018.pdf';
 import './index.css';
 
 export default class AboutPage extends Component {
@@ -14,34 +16,34 @@ export default class AboutPage extends Component {
         </div>
         <div className='about-page-info-container'>
           <div className='about-page-contact-info'>
+            {'Email Me:'}
+            <br />
+            <LinkText text='me@iamandrew.io' link='mailto:me@iamandrew.io' />
+            <br />
+            {''}
+            <br />
             {'Call Me:'}
             <br />
             {'623-208-9405'}
             <br />
             {''}
             <br />
-            {'Email Me:'}
-            <br />
-            {'me@iamandrew.io'}
-            <br />
-            {''}
-            <br />
-            {'View Resume'}
+            <LinkText text='> View Resume' link={ResumePDF} />
           </div>
           <div className='about-page-social-media'>
             {'Follow Me:'}
             <br />
-            {'Github'}
+            <LinkText text='> Github' link='https://www.github.com/ASteinheiser' />
             <br />
-            {'Hackster'}
+            <LinkText text='> Hackster' link='https://www.hackster.io/andrewstein' />
             <br />
-            {'LinkedIn'}
+            <LinkText text='> LinkedIn' link='https://www.linkedin.com/in/andrew-steinheiser-8989b1122/' />
             <br />
-            {'Facebook'}
+            <LinkText text='> Facebook' link='https://www.facebook.com/andrewsteinheiser' />
             <br />
-            {'Instagram'}
+            <LinkText text='> Instagram' link='https://www.instagram.com/asteinheiser/' />
             <br />
-            {'Twitter'}
+            <LinkText text='> Twitter' link='https://twitter.com/ASteinheiser' />
           </div>
         </div>
       </div>

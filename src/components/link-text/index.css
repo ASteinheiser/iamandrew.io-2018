@@ -1,0 +1,11 @@
+.link-text {
+  color: #8CC4FF;
+  font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+}
+
+.link-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
