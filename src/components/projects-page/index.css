@@ -1,10 +1,10 @@
-.about-page-container {
+.projects-page-container {
   margin: 30px auto;
-  max-width: 600px;
+  width: fit-content;
   background: #1F1F1F;
 }
 
-.about-page-header {
+.projects-page-header {
   display: flex;
   padding: 40px 0;
   justify-content: center;
@@ -14,7 +14,7 @@
   text-shadow: 2px 0 3px #5EA110;
 }
 
-.about-page-body {
+.projects-page-body {
   color: #8CC4FF;
   text-align: center;
   font-size: 22px;
