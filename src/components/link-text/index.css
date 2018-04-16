@@ -9,3 +9,9 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media(max-width: 600px) {
+  .link-text {
+    font-size: 18px;
+  }
+}

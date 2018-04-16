@@ -30,7 +30,7 @@ export default class AboutPage extends Component {
             <br />
             <LinkText text='> View Resume' link={ResumePDF} />
           </div>
-          <div className='about-page-social-media'>
+          <div className='about-page-contact-info'>
             {'Follow Me:'}
             <br />
             <LinkText text='> Github' link='https://www.github.com/ASteinheiser' />

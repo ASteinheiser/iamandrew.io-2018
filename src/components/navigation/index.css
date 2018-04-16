@@ -14,8 +14,7 @@
 }
 
 .navigation-content {
-  margin-bottom: 20px;
   margin-top: 90px;
-  width: 100%;
-  height: fit-content;
+  display: flex;
+  justify-content: center;
 }
