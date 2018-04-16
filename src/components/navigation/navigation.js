@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import TopNav from './top-nav';
-import Footer from './footer';
 import './index.css';
 
 export default class Navigation extends Component {
@@ -13,8 +12,6 @@ export default class Navigation extends Component {
         <div className='navigation-content max-width'>
           {this.props.children}
         </div>
-
-        <Footer />
       </div>
     )
   }
