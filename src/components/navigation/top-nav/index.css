@@ -11,7 +11,7 @@
 }
 
 .top-nav-iamandrew-logo {
-  padding: 12px 0 0 25px;
+  padding: 15px 0 0 25px;
   font-size: 28px;
   color: #5EA110;
   text-shadow: 2px 0 3px #5EA110;
@@ -25,7 +25,7 @@
 
 .top-nav-links-container {
   display: flex;
-  padding: 15px 30px 0 0;
+  padding: 17px 30px 0 0;
 }
 
 .top-nav-item {
