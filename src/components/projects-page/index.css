@@ -5,7 +5,7 @@
 
 .projects-page-box-container {
   cursor: default;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 15px auto;
   width: fit-content;
   background: #1F1F1F;
   box-shadow: 0 2px 4px 0 rgba(30,30,30,0.50);
@@ -22,6 +22,13 @@
   text-shadow: 2px 0 3px #5EA110;
 }
 
+@media(max-width: 600px) {
+  .projects-page-header {
+    font-size: 22px;
+    padding: 30px 0;
+  }
+}
+
 .projects-page-body {
   color: #8CC4FF;
   text-align: center;
@@ -30,6 +37,14 @@
   letter-spacing: 2px;
   text-transform: lowercase;
   padding: 0 70px 40px 70px;
+}
+
+
+@media(max-width: 600px) {
+  .projects-page-body {
+    font-size: 18px;
+    padding: 0 30px 30px 30px;
+  }
 }
 
 .project-blog-posts-container {
