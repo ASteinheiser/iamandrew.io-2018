@@ -1,0 +1,26 @@
+.drawer-container {
+  height: 100%;
+  width: fit-content;
+
+  padding: 20px 40px 0 30px;
+  background: #1F1F1F;
+}
+
+.drawer-title {
+  font-size: 32px;
+  line-height: 2.25;
+  color: #5EA110;
+  text-shadow: 2px 0 3px #5EA110;
+}
+
+.drawer-item {
+  font-size: 28px;
+  line-height: 2.25;
+  color: #5EA110;
+  text-shadow: 2px 0 3px #5EA110;
+}
+
+.drawer-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -5,7 +5,7 @@
 
 .projects-page-box-container {
   cursor: default;
-  margin: 0 auto 15px auto;
+  margin: 10px auto 15px auto;
   width: fit-content;
   background: #1F1F1F;
   box-shadow: 0 2px 4px 0 rgba(30,30,30,0.50);
