@@ -1,7 +1,7 @@
 # iamandrew.io
-This is a simple site that I created using [React.js](https://facebook.github.io/react/) to showcase my projects and articles as well as providing my contact information.
+Here's an interactive resume I created using [React.js](https://facebook.github.io/react/) to showcase my projects and articles as well as providing my contact information and resume.
 
-### Run it locally
+### Clone and Run
 ```
 git clone https://github.com/ASteinheiser/iamandrew.io.git
 cd iamandrew.io
