@@ -47,6 +47,10 @@
   text-decoration: underline;
 }
 
-.margin-bottom {
-  margin-bottom: 15px;
+.margin-top {
+  margin-top: 15px;
+}
+
+.display-inline {
+  display: inline;
 }
