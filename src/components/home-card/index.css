@@ -1,12 +1,13 @@
 .home-card-container {
   position: absolute;
-  top: 0;
+  top: 40%;
   right: 0;
   bottom: 0;
   left: 0;
 
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
+  display: table;
 
   width: fit-content;
   height: fit-content;
