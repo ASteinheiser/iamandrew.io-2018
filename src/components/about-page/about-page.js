@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import LinkText  from '../link-text';
-import ResumePDF from '../../assets/Resume_2018.pdf';
 import './index.css';
 
 export default class AboutPage extends Component {
@@ -28,7 +27,7 @@ export default class AboutPage extends Component {
             <br />
             {''}
             <br />
-            <LinkText text='> View Resume' link={ResumePDF} />
+            <LinkText text='> View Resume' link='https://iamandrew.io/Resume_2018.pdf' />
           </div>
           <div className='about-page-contact-info'>
             {'Follow Me:'}
