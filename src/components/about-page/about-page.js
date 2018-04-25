@@ -27,7 +27,7 @@ export default class AboutPage extends Component {
             <br />
             {''}
             <br />
-            <LinkText text='> View Resume' link='https://iamandrew.io/Resume_2018.pdf' />
+            <LinkText text='> View Resume' link='/Resume_2018.pdf' />
           </div>
           <div className='about-page-contact-info'>
             {'Follow Me:'}
