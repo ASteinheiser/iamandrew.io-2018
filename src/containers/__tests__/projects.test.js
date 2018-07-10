@@ -1,6 +1,9 @@
-import React from 'react';
+import React      from 'react';
+import serializer from 'enzyme-to-json/serializer';
 
 import Projects from '../projects.js';
+
+expect.addSnapshotSerializer(serializer);
 
 describe('Projects test ->', () => {
 
@@ -13,11 +16,11 @@ describe('Projects test ->', () => {
       expect(component).toMatchSnapshot();
     });
 
-    test('renders with children', () => {
+    test('renders with no props', () => {
       const component = mount(
         <Projects />
       );
-      expect(component.props().children).toEqual(undefined).not();
+      expect(component.props()).toEqual({});
       expect(component).toMatchSnapshot();
     });
 

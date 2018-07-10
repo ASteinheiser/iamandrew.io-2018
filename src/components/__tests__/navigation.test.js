@@ -1,6 +1,9 @@
-import React from 'react';
+import React      from 'react';
+import serializer from 'enzyme-to-json/serializer';
 
 import Navigation from '../navigation';
+
+expect.addSnapshotSerializer(serializer);
 
 describe('Navigation test ->', () => {
 
