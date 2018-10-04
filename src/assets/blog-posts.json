@@ -1,4 +1,10 @@
 {
+  "21": {
+    "id": 21,
+    "title": "#SmartBlondes Website Redesign",
+    "image": "https://i.imgur.com/S7yTLD8.jpg",
+    "link": "https://smart-blondes.com/"
+  },
   "20": {
     "id": 20,
     "title": "Hanger Web & Mobile Apps with React & React Native",
